@@ -1,0 +1,5 @@
+###PDFtk is a command line tool
+###Below command is used to fet the PDF page count using PDFtk
+
+Usage:
+PDFtk.exe <PDF_file> dump_data | findstr PageMediaNumber: | wc -l
