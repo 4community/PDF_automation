@@ -3,3 +3,7 @@
 
 Usage:
 PDFtk.exe <PDF_file> dump_data | findstr PageMediaNumber: | wc -l
+
+OR
+
+PDFtk.exe <PDF_file> dump_data | findstr PageMediaNumber: | Find /v /c ""
